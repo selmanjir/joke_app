@@ -1,1 +1,1 @@
-const ekran = new Ekran;
+const screen = new Screen;

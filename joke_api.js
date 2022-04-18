@@ -7,7 +7,7 @@ class JokeApi{
         })
     }
     
-    async randomSakaGetir () {
+    async getRandomJoke () {
         
         try {
             

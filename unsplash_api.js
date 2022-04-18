@@ -11,12 +11,12 @@ class UnsplashApi{
         });
     }
     
-    async randomResimGetir () {
+    async getRandomImage () {
         
         try {
-            const resimResponse = await this.axiosNesne.get('/photos/random');
-            console.log(resimResponse.data.urls.regular);
-            return resimResponse.data.urls.regular;
+            const getImage = await this.axiosNesne.get('/photos/random');
+            console.log(getImage.data.urls.regular);
+            return getImage.data.urls.regular;
             
         } catch (err) {
             console.log(err);
